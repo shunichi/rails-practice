@@ -22,6 +22,6 @@ module SessionMethods
   end
 
   def authenticate_user!
-    redirect_to root_url, alert('ログインしてください') unless user_signed_in?
+    redirect_to root_url, alert: 'ログインしてください' unless user_signed_in?
   end
 end
