@@ -17,3 +17,26 @@ group :development, :test do
   gem 'spring'
 end
 
+# 後からインストールしたもの
+
+gem 'jquery-turbolinks'
+gem 'haml-rails'
+gem 'bootstrap-sass'
+gem 'compass-rails'
+gem 'font-awesome-rails'
+gem 'simple_form'
+gem 'rails_config'
+
+group :development do
+  gem 'better_errors'
+  gem 'binding_of_caller'
+  gem 'quiet_assets'
+  gem 'letter_opener_web'
+  gem 'bullet'
+  gem 'erb2haml'
+end
+
+group :production do
+  gem 'rails_12factor'
+end
+
