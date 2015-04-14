@@ -27,6 +27,9 @@ gem 'font-awesome-rails'
 gem 'simple_form'
 gem 'rails_config'
 
+gem 'omniauth'
+gem 'omniauth-github'
+
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller'
