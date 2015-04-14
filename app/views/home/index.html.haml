@@ -1,4 +1,7 @@
 - if user_signed_in?
   = link_to 'ログアウト', sign_out_path, method: :delete
 - else
-  = link_to 'ログイン', sign_in_path
+  .container.text-center
+    %h3
+      n2jkAcademy
+    = link_to fa_icon('github', text: 'GitHubアカウントでログイン'), sign_in_path, class: 'btn btn-success'
