@@ -17,6 +17,9 @@ group :development, :test do
   gem 'spring'
 end
 
+# compass-rails がまだ sprockets 3.0.x に対応していないので旧バージョンを使う
+gem 'sprockets', '~> 2.12.3'
+
 # 後からインストールしたもの
 
 gem 'jquery-turbolinks'
