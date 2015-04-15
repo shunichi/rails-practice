@@ -17,6 +17,9 @@ group :development, :test do
   gem 'spring'
 end
 
+# compass-rails がまだ sprockets 3.0.x に対応していないので旧バージョンを使う
+gem 'sprockets', '~> 2.12.3'
+
 # 後からインストールしたもの
 
 gem 'jquery-turbolinks'
@@ -26,6 +29,9 @@ gem 'compass-rails'
 gem 'font-awesome-rails'
 gem 'simple_form'
 gem 'rails_config'
+
+gem 'omniauth'
+gem 'omniauth-github'
 
 group :development do
   gem 'better_errors'
