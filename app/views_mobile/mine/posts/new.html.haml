@@ -1,0 +1,6 @@
+.mobile-main
+  = simple_form_for @post do |f|
+    .form-inputs
+      = f.input :body, label: false, input_html: {rows: 5}
+    .text-center
+      = f.button :submit, class: 'btn btn-primary'

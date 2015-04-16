@@ -1,8 +1,5 @@
 %h3
-  モバイルバージョン
-- if user_signed_in?
-  = link_to 'ログアウト', sign_out_path, method: :delete
-- else
+- unless user_signed_in?
   .container.text-center
     %h3
       n2jkAcademy

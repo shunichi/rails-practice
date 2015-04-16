@@ -6,4 +6,5 @@ class ApplicationController < ActionController::Base
   include MobileCheckable
 
   before_action :authenticate_user!
+  before_action :check_for_mobile
 end
